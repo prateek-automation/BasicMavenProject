@@ -20,4 +20,10 @@ public class Setup {
 		
 		driver.manage().timeouts().implicitlyWait(i,TimeUnit.SECONDS);
 	}
+	
+	public static void testMethod() {
+		
+		System.out.println("Change1");
+		
+	}
 }
